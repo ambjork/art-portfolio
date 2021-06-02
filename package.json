@@ -1,15 +1,23 @@
 {
   "name": "art-portfolio",
+  "homepage": "http://ambjork.github.io/art-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-images-viewer": "^1.6.6",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-viewer": "^3.2.2",
     "sass": "^1.32.8",
     "styled-component": "^2.8.0",
     "styled-components": "^5.2.1",
@@ -17,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

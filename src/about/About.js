@@ -21,7 +21,7 @@ render() {
 
         <section className='main-section'>
             Here will be info about me.
-            <Link to='http://localhost:3000/contact'>Contact me</Link>
+            <Link to='/contact'>Contact me</Link>
         </section>
 
 

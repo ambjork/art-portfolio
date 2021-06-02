@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.scss'
-import Form from './Form';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faInstagram, faTumblr, faYoutube, faTwitch } from '@fortawesome/free-brands-svg-icons'
 
 
 class Contact extends React.Component {
@@ -14,12 +15,33 @@ constructor(props) {
 
 render() {
         return (
+            <body>
         <section className='content'>
-            <h1>Contact</h1>
+            <h1 className='contact-h1-name'>ANGELA ODÉN</h1>
+           
 
-            <div>This is how you make contact with me.</div>
-            <Form />
+            <div className='contact-presentation'>
+                <p>Text about me. Text about me.Text about me.Text about me.Text about me.Text about me.Text about me. Text about me. Text about me. Text about me. Text about me. Text about me. Text about me. Text about me. Text about me. Text about me. Text about me. Text about me.Text about me.Text about me.</p>
+
+                <h2 className='contact-h2-contact'>CONTACT</h2>
+                <ul className='contact-list'>
+                    <li><a href='mailto:angelaoden@hotmail.com' className='contact-link'>angelaoden@gmail.com</a></li>
+                    <li><a href='' className='contact-link'>angiiieArt</a> on Instagram</li>
+                    <li><a href='' className='contact-link'>angiiieArt</a> on Twitch</li>
+                    <li><a href='' className='contact-link'>angiiieArt</a> on Tumblr</li>
+                    <li><a href='' className='contact-link'>angiiieArt</a> on Youtube</li>
+                    <li><a href='' className='contact-link'>angie.deviantart.com</a></li>
+                    <li className='contact-logos'>
+                        <a href='' className='contact-logos-child'><FontAwesomeIcon icon={faInstagram} /></a> 
+                        <a href='' className='contact-logos-child'><FontAwesomeIcon icon={faTwitch} /></a>
+                        <a href='' className='contact-logos-child'><FontAwesomeIcon icon={faTumblr} /></a>
+                        <a href='' className='contact-logos-child'><FontAwesomeIcon icon={faYoutube} /></a>
+                        <a href='' className='contact-logos-child'><FontAwesomeIcon icon={faTwitter} /></a>
+                    </li>
+                </ul>
+                </div>
         </section>
+            </body>
 
         )
     }

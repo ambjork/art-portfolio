@@ -5,7 +5,7 @@ import {
   Route,
   Switch
 } from 'react-router-dom'
-import Home from './home/Home.js'
+// import Home from './home/Home.js'
 import Contact from './contact/Contact.js'
 import About from './about/About.js'
 import Blog from './blog/Blog.js'
@@ -17,9 +17,9 @@ function App() {
       <Router>
       <header className='app-header'>
         <nav>
-          <StyledLink to='/'>Home</StyledLink>
+          {/* <StyledLink to='/'>Home</StyledLink> */}
           <StyledLink to='/blog'>Blog</StyledLink>
-          <StyledLink to='/portfolio'>Portfolio</StyledLink>
+          <StyledLink to='/'>Portfolio</StyledLink>
           <StyledLink to='/contact'>Contact</StyledLink>
           <StyledLink to='/about'>About me</StyledLink>
         </nav>
@@ -27,14 +27,13 @@ function App() {
 
         <section>
           <Switch>
-            <Route exact path='/' component={Home} />
+            {/* <Route exact path='/' component={Home} /> */}
             <Route exact path='/blog' component={Blog} />
-            <Route exact path='/portfolio' component={PortfolioContainer} />
+            <Route exact path='/' component={PortfolioContainer} />
             <Route exact path='/contact' component={Contact} />
             <Route exact path='/about' component={About} />
             </Switch>
           </section>
-        
         
         <footer className='footer-info'>
                 <p>{ARTISTS_NAME}</p>

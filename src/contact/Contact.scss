@@ -1,9 +1,49 @@
-.content {
-    color: blanchedalmond;
+.body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-h1-name {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
-inquiries-form {
+.content {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+.contact-presentation, .contact-h2-contact, .contact-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+.contact-h2-contact {
+    color: #999;
+}
+.contact-list {
+    color: #999;
+    list-style: none;
+}
+.contact-list :hover{
+    color: #111;
+}
+
+.contact-link {
+    color: #999;
+}
+
+.contact-logos {
+    font-size: 50px;
     display: flexbox;
-    flex-direction: column;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.contact-logos-child {
+    margin: 10px;
 }

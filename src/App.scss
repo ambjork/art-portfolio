@@ -2,7 +2,7 @@
   text-align: center;
 }
   .app-header {
-    background-color: #282c34;
+    background-color: #fcfcfc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +12,8 @@
   }
 
   .footer-info {
-    color: blanchedalmond;
+    color: #999;
+    background-color: #fcfcfc;
     text-align: center;
+    margin-top: auto;
   }
