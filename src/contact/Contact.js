@@ -30,7 +30,7 @@ render() {
                     <li><a href='https://www.deviantart.com/grazim' className='contact-link'>angiiieArt</a> on Twitch</li>
                     <li><a href='https://www.deviantart.com/grazim' className='contact-link'>angiiieArt</a> on Tumblr</li>
                     <li><a href='https://www.deviantart.com/grazim' className='contact-link'>angiiieArt</a> on Youtube</li>
-                    <li><a href='https://www.deviantart.com/grazim' className='contact-link'>angie.deviantart.com</a></li>
+                    <li><a href='https://www.deviantart.com/grazim' className='contact-link'>deviantart.com/grazim</a></li>
                     <li className='contact-logos'>
                         <a href='https://www.deviantart.com/grazim' className='contact-logos-child'><FontAwesomeIcon icon={faInstagram} /></a> 
                         <a href='https://www.deviantart.com/grazim' className='contact-logos-child'><FontAwesomeIcon icon={faTwitch} /></a>
