@@ -1,5 +1,15 @@
 import React, { useState, useCallback } from 'react'
-import ImageViewer from 'react-simple-image-viewer';
+import ImageViewer from 'react-simple-image-viewer'
+import bild1 from '../assets/img/bild-1.jpg'
+import bild2 from '../assets/img/bild-2.jpg'
+import bild3 from '../assets/img/bild-3.jpg'
+import bild4 from '../assets/img/bild-4.jpg'
+import bild5 from '../assets/img/bild-5.jpg'
+import bild6 from '../assets/img/bild-6.jpg'
+import bild7 from '../assets/img/bild-7.jpg'
+import bild8 from '../assets/img/bild-8.jpg'
+import bild9 from '../assets/img/bild-9.jpg'
+import bild10 from '../assets/img/bild-10.jpg'
 
 function PortfolioContainer() {
 
@@ -8,11 +18,16 @@ function PortfolioContainer() {
 
 
     const images = [
-    '../public/resources/bild-1.jpg',
-    'http://placeimg.com/1200/800/nature',
-    'http://placeimg.com/800/1200/nature',
-    'http://placeimg.com/1920/1080/nature',
-    'http://placeimg.com/1500/500/nature',
+    bild1,
+    bild2,
+    bild3,
+    bild4,
+    bild5,
+    bild6,
+    bild7,
+    bild8,
+    bild9,
+    bild10,
   ];
 
     const openImageViewer = useCallback((index) => {
